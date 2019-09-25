@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".UpdateDeleteActivity">
+
+  <TextView
+      android:id="@+id/textView3"
+      android:layout_width="350dp"
+      android:layout_height="35dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginTop="8dp"
+      android:text="Hall Type"
+      android:textColor="#000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.121" />
+
+    <!--<Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.185" />-->
+
+  <EditText
+      android:id="@+id/hall"
+      android:layout_width="350dp"
+      android:layout_height="40dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="8dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:background="#fff"
+      android:hint="Enter a Hall Type"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.228" />
+
+  <TextView
+      android:id="@+id/textView4"
+      android:layout_width="350dp"
+      android:layout_height="35dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginTop="8dp"
+      android:text="Check in Date"
+      android:textColor="#000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.313" />
+
+    <EditText
+        android:id="@+id/etdate1"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:background="#fff"
+        android:hint="Enter Check in date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.412" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="35dp"
+        android:text="Check out Date"
+        android:textColor="#000"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.535" />
+
+    <EditText
+        android:id="@+id/etdate2"
+        android:layout_width="350dp"
+        android:layout_height="40dp"
+
+        android:background="#fff"
+        android:hint="Enter Check out date"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.63" />
+
+  <TextView
+      android:layout_width="350dp"
+      android:layout_height="35dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginTop="8dp"
+      android:text="Time"
+      android:textColor="#000"
+      android:textSize="20sp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.745" />
+
+  <EditText
+      android:id="@+id/time1"
+      android:layout_width="350dp"
+      android:layout_height="40dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginTop="8dp"
+      android:background="#fff"
+      android:hint="Enter a Time"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.846" />
+
+
+  <Button
+      android:id="@+id/btnupdate"
+      android:layout_width="150dp"
+      android:layout_height="45dp"
+      android:layout_marginBottom="4dp"
+      android:layout_marginStart="16dp"
+      android:layout_marginTop="8dp"
+      android:background="#15bec1"
+      android:text="update"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.973" />
+
+  <Button
+      android:id="@+id/btndelete"
+      android:layout_width="150dp"
+      android:layout_height="45dp"
+      android:layout_marginBottom="8dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="8dp"
+      android:layout_marginTop="8dp"
+      android:background="#15bec1"
+      android:text="delete"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="1.0"
+      app:layout_constraintStart_toEndOf="@+id/btnupdate"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.982" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="16dp"
+        android:text="Update a Booking"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.419"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+</android.support.constraint.ConstraintLayout>

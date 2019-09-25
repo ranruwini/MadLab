@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Siyenra</string>
+
+    <string-array name="hallTypes">
+        <item>Choose...</item>
+        <item>Grand Ball Room</item>
+        <item>Banquet Halls</item>
+        <item>Eagle Hall</item>
+
+    </string-array>
+
+
+</resources>
